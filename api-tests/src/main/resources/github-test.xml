@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API Module Pre Merge Test Suite" verbose="10">
+    <test name="Github API tests">
+        <classes>
+            <class name="com.github.qa.apitests.GithubTests" />
+        </classes>
+    </test>
+</suite>
