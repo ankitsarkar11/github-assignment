@@ -19,5 +19,5 @@ Modules can be run by executing the following commands that uses testng.xml file
 mvn clean install -DskipTests -Dapp.env=prod
 ```
 ```shell
-mvn test -DtestFailureIgnore=true -Dsurefire.suiteXmlFiles=${testPath}
+cd ${module}/ && mvn test -DtestFailureIgnore=true -Dsurefire.suiteXmlFiles=${testPath}
 ```
